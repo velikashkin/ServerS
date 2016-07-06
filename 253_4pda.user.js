@@ -5,6 +5,7 @@
 // @icon        http://4pda.ru/forum/favicon.ico
 // @icon64      http://s.4pda.to/forum/style_images/1/bf_new.gif
 // @description Дополнительные опции для 4pda
+// @update https://github.com/velikashkin/Server/raw/master/253_4pda.user.js
 // @include http://4pda.ru/forum/*
 // @exclude http://4pda.ru/forum/index.php?autocom=mmod*
 // @exclude http://4pda.ru/forum/index.php?act=idx&autocom=mmod*
