@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name 4pdaScript
+// @name 4pdaScript2
 // @version 2.53
 // @author svm, MrMAP & vredniiy
 // @icon        http://4pda.ru/forum/favicon.ico
