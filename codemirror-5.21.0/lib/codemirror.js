@@ -7608,7 +7608,7 @@ function hiddenTextarea() {
   // our fake cursor out of view. On webkit, when wrap=off, paste is
   // very slow. So make the area wide instead.
   if (webkit) { te.style.width = "100px" }
-  else { te.setAttribute("wrap", "off") }
+  
   // If border: 0; -- iOS fails to open keyboard (issue #1287)
   if (ios) { te.style.border = "1px solid black" }
   disableBrowserMagic(te)
