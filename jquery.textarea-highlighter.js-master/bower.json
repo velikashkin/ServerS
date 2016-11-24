@@ -1,0 +1,28 @@
+{
+  "name": "jquery-textarea-highlighter",
+  "version": "0.6.8",
+  "main": "jquery.textarea-highlighter.js",
+  "ignore": [
+    "screenshot.png",
+    "gulpfile.js",
+    "package.json",
+    "karma.conf.js",
+    "**/.*",
+    "demo/**",
+    "spec/**",
+    "coverage/**",
+    "benchmark/**",
+    "node_modules/**",
+    "bower_components/**"
+  ],
+  "devDependencies": {
+    "jasmine-jquery": "2.1.0"
+  },
+  "dependencies": {
+    "jquery": "^1.11.2",
+    "normalize-css": "~3.0.3"
+  },
+  "resolutions": {
+    "jquery": ">= 1.11.2"
+  }
+}

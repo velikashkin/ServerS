@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Demo - jquery.textarea-highlighter.js</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+</head>
+<body>
+
+  <div id="container">
+    <h1>Demo</h1>
+    <hr/>
+    <div class="translation">
+      <div class="source">some cool text is <span class="hoge">here for</span> you to translate. And <span class="match">[[[text here too]]]</span> some more to translation for you. some cool text is <span class="hoge">for they</span> you to translate.<span class="match">[[[text here too]]]</span> add some more <span class="hoge">for me</span> and some more <span class="fuga">for them</span> and me</div>
+      <textarea class="target" placeholder="Type your text here">some cool text is here for you to translate. And [[[text here too]]] some more to translation for you. some cool text is for they you to translate.[[[text here too]]] add some more for me and some more for them and me</textarea>
+    </div>
+    <hr/>
+    <h2>With max text length check</h2>
+    <div class="translation-max">
+      <div class="source">some cool text is <span class="hoge">here for</span> you to translate. And <span class="match">[[[text here too]]]</span> some more to translation for you. some cool text is <span class="hoge">for they</span> you to translate.<span class="match">[[[text here too]]]</span> add some more <span class="hoge">for me</span> and some more <span class="fuga">for them</span> and me</div>
+      <textarea class="target" placeholder="Type your text here" data-maxlength="150" data-debug="false" data-maxlength-warning="warning">some cool text is here for you to translate. And [[[text here too]]] some more to translation for you. some cool text is for they you to translate.[[[text here too]]] add some more for me and some more for them and me</textarea>
+      <span class="maxlength"></span>
+    </div>
+
+  </div>
+
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="../src/trie.js"></script>
+<script src="../src/helper.js"></script>
+<script src="../src/jquery.textarea-highlighter.js"></script>
+<script src="./js/index.js"></script>
+
+</body>
+</html>
