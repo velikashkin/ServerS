@@ -1,3 +1,4 @@
+function searchAct() {
 alert('YES!SSSSSSSSSSSSSSSSSSSSSSS!!');
 $('#topicmenu-options_menu2').remove();
 var dfd = $('#topic_func').position().top
@@ -13,3 +14,5 @@ menus.attr('id','topicmenu-options_menu2').css({
 $('body').click(function(){
   $('#topicmenu-options_menu2').remove();
 });
+}
+searchAct();
