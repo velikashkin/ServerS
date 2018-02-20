@@ -1,4 +1,4 @@
-alert('YES!-----!!');
+alert('YES!SSSSSSSSSSSSSSSSSSSSSSS!!');
 var id = this.getAttribute('post_id');
 	var name = $('#post-member-' + id + ' a').html();
 	var link = getUrlProt()+$('#post-member-' + id + ' a').attr('href');
@@ -63,4 +63,3 @@ var id = this.getAttribute('post_id');
 		});
 	  }
 	});
-	return false
